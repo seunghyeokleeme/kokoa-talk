@@ -8,7 +8,7 @@ a {
   background-size: 20px;
   background-color: white;
   display: grid;
-  grid-template-columns: 140px 1000px 800px;
+  grid-template-columns: 140px 1020px 800px;
 }
 #번역 > a {
   text-align: right;
@@ -19,7 +19,7 @@ a {
 #article,
 #번역 {
   margin-top: 22.14px;
-  margin-left: 300px;
+  margin-left: 350px;
   font-size: 24px;
 }
 
