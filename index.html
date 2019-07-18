@@ -4,61 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Position</title>
+    <title>Flex</title>
     <style>
-      body,
-      html {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        height: 400%;
+        html,body {
+            height: 100%;
+        }
+        .father {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: row;
+            height: 100%;
+            flex-wrap: no-wrap-reverse;
+        }
+      .box {
         background-color: red;
-      }
-      /* Position Fixed
-
-      #boxOne {
-        height: 300px;
-        width: 300px;
-        background-color: yellow;
-        position: static;
-      }
-      #boxTwo {
-        height: 300px;
-        width: 100%;
-        background-color: green;
-        position: fixed;
-        bottom: 30%;
-        left: 0;
-      }*/
-      .abs-box {
-        width: 400px;
-        height: 400px;
-        background-color: yellow;
-        position: relative;
-      }
-      .abs-child {
-        width: 100px;
-        height: 100px;
-        background-color: green;
-        position: absolute;
-        right: 10px;
-        top: 10px;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
       }
     </style>
   </head>
   <body>
-    <div class="abs-box">
-      <div class="abs-child"></div>
+    <div class="father">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
     </div>
-    <!-- Position Fixed
-    -<div id="boxOne">
-      <div class="box-child"></div>
-    </div>
-    <div id="boxTwo">
-      <div class="box-child"></div>
-    </div>
--->
-  </body>
 </html>
