@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | KaKao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">13:54 </span>
@@ -40,25 +40,41 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, July 19, 2019</span>
         <li class="incoming-message message">
           <img src="images/avatar.jpg" class="g-avatar message__avatar" />
           <div class="message__content">
+            <span class="message__bubble">
+              Welcome to my project!
+            </span>
             <span class="message__author">Best Friend</span>
-            <div class="message__bubble">
-              Welcome to my GSH Study!
-            </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
-        <li class="incoming-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"></span>
           <div class="message__content">
-            <div class="message__bubble">
+            <span class="message__bubble">
               Thank you. Wow awesome!
-            </div>
+            </span>
+          </div>
+        </li>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="g-avatar message__avatar" />
+          <div class="message__content">
+            <span class="message__bubble">
+              Welcome to my project!
+            </span>
+            <span class="message__author">Best Friend</span>
+          </div>
+        </li>
+        <li class="sent-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <span class="message__bubble">
+              Thank you. Wow awesome!
+            </span>
           </div>
         </li>
       </ul>
