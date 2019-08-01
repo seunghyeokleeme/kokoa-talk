@@ -7,13 +7,21 @@
     <title>Transformation</title>
     <style>
       .box {
-        width: 500px;
-        height: 500px;
+        width: 100px;
+        height: 100px;
         background: red;
-        transition: transform 0.5s ease-in-out;
+        animation: 1.5s scaleandrotatesquare infinite ease-in-out;
       }
-      .box:hover {
-        transform: rotate(1turn) scale(0.5, 0.5);
+      @keyframes scaleandrotatesquare {
+        0% {
+          transform: none;
+        }
+        50% {
+          transform: rotate(1turn) scale(0.5, 0.5);
+        }
+        100% {
+          transform: none;
+        }
       }
     </style>
   </head>
