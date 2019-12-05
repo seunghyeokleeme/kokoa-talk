@@ -7,6 +7,7 @@ import userRouter from "./routers/userRouter";
 import globalRouter from "./routers/globalRouter";
 import chatRouter from "./routers/chatRouter";
 import friendRouter from "./routers/friendRouter";
+import settingRouter from "./routers/settingRouter";
 
 const app = express();
 
@@ -20,5 +21,6 @@ app.use("/", globalRouter);
 app.use("/user", userRouter);
 app.use("/friend", friendRouter);
 app.use("/chat", chatRouter);
+app.use("/setting", settingRouter);
 
 export default app;
