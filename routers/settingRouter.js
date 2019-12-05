@@ -1,15 +1,17 @@
 import express from "express";
 import routes from "../routes";
+import {
+  settings,
+  friendSetting,
+  profileSetting,
+  chatSetting
+} from "../controllers/settingController";
 
 const settingRouter = express.Router();
 
-settingRouter.get(routes.settings, (req, res) => res.send("Settings"));
-settingRouter.get(routes.friendSetting, (req, res) =>
-  res.send("Setting Friend")
-);
-settingRouter.get(routes.chatSetting, (req, res) => res.send("Setting Chat"));
-settingRouter.get(routes.profileSetting, (req, res) =>
-  res.send("Setting Profile")
-);
+settingRouter.get(routes.settings, settings);
+settingRouter.get(routes.friendSetting, friendSetting);
+settingRouter.get(routes.chatSetting, chatSetting);
+settingRouter.get(routes.profileSetting, profileSetting);
 
 export default settingRouter;

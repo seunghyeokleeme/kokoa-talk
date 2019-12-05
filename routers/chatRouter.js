@@ -1,12 +1,19 @@
 import express from "express";
 import routes from "../routes";
+import {
+  chats,
+  addChat,
+  chatDetail,
+  editChat,
+  deleteChat
+} from "../controllers/chatController";
 
 const chatRouter = express.Router();
 
-chatRouter.get(routes.chats, (req, res) => res.send("Chats"));
-chatRouter.get(routes.addChat, (req, res) => res.send("Add Chat"));
-chatRouter.get(routes.chatDetail, (req, res) => res.send("Chat Detail "));
-chatRouter.get(routes.editChat, (req, res) => res.send("Edit Chat"));
-chatRouter.get(routes.deleteChat, (req, res) => res.send("Delete Chat"));
+chatRouter.get(routes.chats, chats);
+chatRouter.get(routes.addChat, addChat);
+chatRouter.get(routes.chatDetail, chatDetail);
+chatRouter.get(routes.editChat, editChat);
+chatRouter.get(routes.deleteChat, deleteChat);
 
 export default chatRouter;
