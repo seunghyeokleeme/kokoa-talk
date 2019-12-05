@@ -2,8 +2,8 @@
 
 const HOME = "/";
 const JOIN = "/join";
-const LOGOUT = "/logout";
 const LOGIN = "/login";
+const LOGOUT = "/logout";
 const SEARCH = "/search";
 const MORE = "/more";
 
@@ -40,8 +40,8 @@ const PROFILE_SETTING = "/profile";
 const routes = {
   home: HOME,
   join: JOIN,
-  logout: LOGOUT,
   login: LOGIN,
+  logout: LOGOUT,
   search: SEARCH,
   more: MORE,
   users: USERS,
@@ -60,6 +60,8 @@ const routes = {
   deleteChat: DELETE_CHAT,
   settings: SETTINGS,
   friendSetting: FRIEND_SETTING,
-  chatSettings: CHAT_SETTING,
+  chatSetting: CHAT_SETTING,
   profileSetting: PROFILE_SETTING
 };
+
+export default routes;

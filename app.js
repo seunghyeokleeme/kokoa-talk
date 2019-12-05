@@ -8,6 +8,7 @@ import globalRouter from "./routers/globalRouter";
 import chatRouter from "./routers/chatRouter";
 import friendRouter from "./routers/friendRouter";
 import settingRouter from "./routers/settingRouter";
+import routes from "./routes";
 
 const app = express();
 
@@ -17,10 +18,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(morgan("dev"));
 
-app.use("/", globalRouter);
-app.use("/user", userRouter);
-app.use("/friend", friendRouter);
-app.use("/chat", chatRouter);
-app.use("/setting", settingRouter);
+app.use(routes.home, globalRouter);
+app.use(routes.users, userRouter);
+app.use(routes.friends, friendRouter);
+app.use(routes.chats, chatRouter);
+app.use(routes.settings, settingRouter);
 
 export default app;
