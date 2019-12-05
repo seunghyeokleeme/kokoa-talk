@@ -3,13 +3,10 @@ const app = express();
 
 const PORT = 4002;
 
-function handleListening() {
+const handleListening = () =>
   console.log(`✅  Listening on: http://localhost:${PORT}`);
-}
 
-function handleHome(req, res) {
-  res.send("Hi from home!");
-}
+const handleHome = (req, res) => res.send("Hi from home!");
 
 app.get("/", handleHome);
 

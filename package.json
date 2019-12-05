@@ -1,7 +1,7 @@
 {
-  "name": "todo-list",
+  "name": "kakaotalk-v3",
   "version": "1.0.0",
-  "description": "todo-list first version",
+  "description": "kakao talk version 3.0",
   "dependencies": {
     "@babel/core": "^7.7.4",
     "@babel/node": "^7.7.4",

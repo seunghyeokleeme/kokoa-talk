@@ -1,5 +1,5 @@
-# Todo List
+# Kakao Talk version 3.0
 
-todo-list first version
+kakao talk version 3.0
 
 localhost: 4002
