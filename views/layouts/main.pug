@@ -1,0 +1,41 @@
+doctype html
+html
+    head
+        link(rel="stylesheet", href="https://use.fontawesome.com/releases/v5.9.0/css/all.css")
+        title KaKaoTalk 
+    body
+        div.status-bar
+            .status-bar__column
+                span.status-bar__clock 13:54
+      
+            .status-bar__column
+                i.fas.fa-clock
+                i.fas.fa-volume-mute
+                i.fas.fa-wifi
+                span.status-bar__battery-level 100%
+                i.fas.fa-battery-full
+        header.header
+            .header__header-column
+                h1.header__title
+                    block content
+            .header__header-column
+                .header__icon
+                    | 추가
+                .header__icon
+                    | 휴지통
+        main
+
+        nav.nav
+            ul.nav__list
+                li.nav__list-item
+                    a.nav__list-link(href="#")
+                        i.far.fa-user
+                li.nav__list-item
+                    a.nav__list-link(href="#")
+                        .nav__badge 개수
+                        i.fas.fa-comment
+                li.nav__list-item
+                    a.nav__list-link(href="#")
+                        i.fas.fa-ellipsis-h
+        
+        
