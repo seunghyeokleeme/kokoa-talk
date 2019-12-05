@@ -1,7 +1,7 @@
 {
   "name": "kakaotalk-v3",
   "version": "1.0.0",
-  "description": "kakao talk version 3.0",
+  "description": "Cloning KaKaoTalk with Vanilla and NodeJS",
   "dependencies": {
     "@babel/core": "^7.7.4",
     "@babel/node": "^7.7.4",
