@@ -18,10 +18,11 @@ body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
-  margin-top: 104px;
+  margin-top: 123px;
 }
 
 .wrapper {
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
