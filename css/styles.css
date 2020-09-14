@@ -10,10 +10,13 @@
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+  margin-top: 104px;
 }
 
 .wrapper {
