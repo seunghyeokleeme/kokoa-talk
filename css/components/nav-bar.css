@@ -17,3 +17,14 @@
   position: relative;
   color: #2e363e;
 }
+
+.nav__noti {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+
+.nav__btn:last-child .nav__noti {
+  right: -5px;
+  top: -10px;
+}
