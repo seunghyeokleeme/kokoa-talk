@@ -12,6 +12,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/friends.css";
 
 body {
   color: #2e363e;
@@ -24,4 +25,8 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
