@@ -1,0 +1,23 @@
+.more-screen .user-component__text {
+  position: relative;
+}
+
+.more-screen .badge-alert {
+  position: absolute;
+  right: -20px;
+  bottom: 0;
+}
+
+.more-screen .icon-row {
+  margin-top: 25px;
+}
+
+.more-suggestions {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}

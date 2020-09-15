@@ -1,0 +1,27 @@
+.icon-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-bottom: 25px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.icon-row__noti {
+  position: absolute;
+  top: -25px;
+  right: 30px;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+  font-size: 14px;
+}
