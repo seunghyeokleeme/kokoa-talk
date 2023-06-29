@@ -1,0 +1,30 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav__noti {
+  position: absolute;
+  right: -15px;
+  top: -15px;
+}
+
+.nav__btn:last-child .nav__noti {
+  right: -5px;
+  top: -10px;
+}

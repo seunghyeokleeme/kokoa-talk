@@ -1,0 +1,28 @@
+.badge {
+  background-color: var(--badge-color);
+  width: 25px;
+  height: 25px;
+  display: block;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.badge-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .badge-new {
+} */
+
+.badge-alert {
+  color: var(--badge-color);
+}
+
+.badge--sm {
+  width: 5px;
+  height: 5px;
+}
