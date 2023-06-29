@@ -1,0 +1,63 @@
+a {
+  border: 5px white solid;
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+#grid {
+  background-size: 20px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 140px 1040px 800px;
+}
+#번역 > a {
+  text-align: right;
+}
+#article {
+  text-align: center;
+}
+#article,
+#번역 {
+  margin-top: 22.14px;
+  margin-left: 350px;
+  font-size: 24px;
+}
+
+#abox {
+  border: 20px white solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#abox > div {
+  border: 20px white solid;
+}
+#bbox {
+  border: 20px white solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 180px;
+}
+#bbox > div {
+  border: 20px white solid;
+}
+h2 {
+  color: black;
+  background-color: white;
+}
+body {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+#copyright {
+  max-width: 1743px;
+  padding: 22px 80px 0;
+  border-top: 1px gray solid;
+}
+#grid {
+  position: sticky;
+  top: 0;
+}
+#page {
+  background: white;
+  height: 300vh;
+}
